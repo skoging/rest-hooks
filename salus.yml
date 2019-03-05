@@ -1,0 +1,6 @@
+scanner_configs:
+  YardAudit:
+    exceptions:
+      - advisor_id: 755
+        changed_by: ntucker
+        notes: Handlebars is only used by devdeps to build changelog. Does not run in library.
